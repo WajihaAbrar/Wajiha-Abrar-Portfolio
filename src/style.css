@@ -24,7 +24,7 @@ h6 {
   font-weight: bold;
 }
 h2 {
-  font-size: 55px;
+  font-size: 45px;
 }
 
 p {
@@ -67,15 +67,25 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
+.contact-button:hover {
+  color: var(--secondary-color);
+  background: #fff;
+  transition: all 1s ease;
+}
 
 .project-button {
-  background: var(--background-color);
-  border: 1px solid var(--secondary-color);
-  color: var(--secondary-color);
+  background: var(--secondary-color);
+  border: 1px solid var(--background-color);
+  color: var(--background-color);
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+.project-button:hover {
+  color: var(--secondary-color);
+  background: var(--background-color);
+  transition: all 1s ease;
 }
 
 .project-details {
