@@ -33,12 +33,20 @@
   <body>
     <div class="container">
       <navbar class="d-flex justify-content-between">
-        <img src="/images/logo.jpeg" alt="" class="logo" />
+        <a href="/">
+          <img src="/images/logo.jpeg" alt="" class="logo d-none d-md-block" />
+          <img
+            src="/images/small-logo.jpeg"
+            alt=""
+            class="small-logo d-block d-md-none"
+          />
+        </a>
+
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Work</li>
-          <li>Contact</li>
+          <li class="active"><a href="/">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/work.html">Work</a></li>
+          <li><a href="/contact.html">Contact</a></li>
         </ul>
       </navbar>
     </div>
