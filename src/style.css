@@ -121,6 +121,23 @@ dotlottie-player {
   margin: 0 auto;
 }
 
+.logo {
+  max-width: 160px;
+}
+navbar {
+  padding: 0;
+}
+navbar ul {
+  margin: 0;
+  padding: 0;
+}
+
+navbar li {
+  display: inline;
+  list-style: none;
+  line-height: 120px;
+}
+
 @media (max-width: 900px) {
   h1,
   .content h1 {
