@@ -93,14 +93,18 @@ p {
   transition: all 1s ease;
 }
 
-.project-details {
+/* .project-details {
   padding: 120px 60px;
+} */
+
+.project-details {
+  padding: 30px 40px;
 }
 
 .project-container-first {
   background: var(--background-color);
-  max-width: 90%;
-  height: 550px;
+  max-width: 85%;
+  height: 400px;
   margin: 50px auto;
 }
 
