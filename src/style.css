@@ -97,6 +97,20 @@ p {
   padding: 120px 60px;
 }
 
+.project-container-first {
+  background: var(--background-color);
+  max-width: 90%;
+  height: 550px;
+  margin: 50px auto;
+}
+
+.project-container-second {
+  background: var(--secondary-color);
+  max-width: 90%;
+  height: 550px;
+  margin: 50px auto;
+}
+
 .content-container {
   padding: 60px 20px;
 }
@@ -127,10 +141,7 @@ dotlottie-player {
 }
 
 .logo {
-  max-height: 125px;
-}
-.small-logo {
-  max-height: 50px;
+  max-height: 75px;
   margin: 10px 0;
 }
 navbar {
@@ -150,7 +161,7 @@ navbar li {
 
 navbar a {
   text-decoration: none;
-  font-weight: 550;
+  font-size: 18px;
   color: var(--primary-color);
   transition: all 150ms ease-in-out;
 }
@@ -198,6 +209,7 @@ footer .social-links a:hover {
   background: var(--secondary-color);
   color: white;
 }
+
 @media (max-width: 900px) {
   h1,
   .content h1 {
@@ -226,6 +238,6 @@ footer .social-links a:hover {
     margin-left: 15px;
   }
   .logo {
-    max-height: 95px;
+    max-height: 45px;
   }
 }
