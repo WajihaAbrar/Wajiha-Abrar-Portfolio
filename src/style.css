@@ -104,14 +104,14 @@ p {
 .project-container-first {
   background: var(--background-color);
   max-width: 85%;
-  height: 400px;
+  height: 360px;
   margin: 50px auto;
 }
 
 .project-container-second {
   background: var(--secondary-color);
-  max-width: 90%;
-  height: 550px;
+  max-width: 85%;
+  height: 360px;
   margin: 50px auto;
 }
 
