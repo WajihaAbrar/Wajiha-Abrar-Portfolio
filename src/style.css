@@ -64,6 +64,26 @@ p {
   opacity: 0.7;
 }
 
+.skills i {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 15px;
+}
+.skills .html {
+  color: orangered;
+}
+.skills .css {
+  color: blue;
+}
+.skills .js {
+  color: #f7df1e;
+}
+.skills .bootstrap {
+  color: blueviolet;
+}
+.skills .react {
+  color: lightskyblue;
+}
 .contact-button {
   background: var(--secondary-color);
   color: #fff;
