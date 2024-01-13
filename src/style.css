@@ -169,7 +169,7 @@ a {
 }
 
 .content h1 {
-  font-size: 54px;
+  font-size: 48px;
   line-height: 80px;
 }
 .content h2 {
@@ -183,6 +183,11 @@ a {
 }
 .content-work {
   font-size: 14px;
+}
+
+.about-me .row {
+  background: var(--background-color);
+  padding: 15px;
 }
 dotlottie-player {
   display: block;
