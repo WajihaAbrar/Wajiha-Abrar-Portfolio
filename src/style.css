@@ -29,13 +29,16 @@ h2 {
 }
 
 h3 {
-  font-size: 40px;
+  font-size: 38px;
 }
 
 p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
+}
+a {
+  text-decoration: none;
 }
 
 .hero {
@@ -69,20 +72,41 @@ p {
   text-align: center;
   margin-left: 15px;
 }
+
 .skills .html {
   color: orangered;
+  transition: all 100ms ease-in;
+}
+.skills .html:hover {
+  transform: scale(2, 2);
 }
 .skills .css {
   color: blue;
+  transition: all 100ms ease-in;
+}
+.skills .css:hover {
+  transform: scale(2, 2);
 }
 .skills .js {
   color: #f7df1e;
+  transition: all 100ms ease-in;
+}
+.skills .js:hover {
+  transform: scale(2, 2);
 }
 .skills .bootstrap {
   color: blueviolet;
+  transition: all 100ms ease-in;
+}
+.skills .bootstrap:hover {
+  transform: scale(2, 2);
 }
 .skills .react {
   color: lightskyblue;
+  transition: all 100ms ease-in;
+}
+.skills .react:hover {
+  transform: scale(2, 2);
 }
 .contact-button {
   background: var(--secondary-color);
@@ -96,9 +120,6 @@ p {
   color: var(--secondary-color);
   background: #fff;
   transition: all 1s ease;
-}
-a {
-  text-decoration: none;
 }
 
 .project-button {
@@ -124,7 +145,6 @@ a {
   max-width: 85%;
   height: 350px;
   margin: 50px auto;
-  box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.4);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   /* transition: all 100ms ease;
   transform: translateY(20px); */
@@ -141,7 +161,7 @@ a {
   color: var(--background-color);
 }
 .content-container {
-  padding: 60px 20px;
+  padding: 20px 20px;
 }
 
 .content {
@@ -170,7 +190,7 @@ dotlottie-player {
 }
 
 .logo {
-  max-height: 75px;
+  max-height: 70px;
   margin: 10px 0;
 }
 navbar {
@@ -200,59 +220,78 @@ navbar li.active a {
   color: var(--background-color);
 }
 
-footer .contact-box {
+section .contact-box {
   background: var(--background-color);
   padding: 30px 100px;
   border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-footer .contact-box p {
+section .contact-box p {
   margin: 0;
 }
-
-footer .email-link {
-  color: black;
-  font-size: 20px;
+section {
+  margin: 80px 0;
+}
+.contact-info .email-link {
+  color: #fec53b;
+  font-size: 18px;
   text-decoration: none;
 }
 
-footer .email-link:hover {
+.contact-info .email-link:hover {
   color: var(--background-color);
 }
 
-footer {
-  margin: 60px 0;
-}
-
-footer .social-links a {
-  margin: 0 20px;
-  font-size: 18px;
+.social-links a {
+  margin: 0 15px;
+  font-size: 16px;
   color: var(--primary-color);
   background: var(--background-color);
-  padding: 10px 15px;
+  padding: 5px 10px;
   border-radius: 50%;
   transition: all 100ms ease-in-out;
 }
 
-footer .social-links a:hover {
-  background: var(--secondary-color);
+.social-links a:hover {
+  background: #fec53b;
   color: white;
 }
 
+.contact-info {
+  width: 100%;
+  padding: 15px;
+  background: var(--secondary-color);
+  color: var(--background-color);
+}
+.contact-info .contact {
+  color: var(--background-color);
+  font-size: 18px;
+  font-family: var(--heading-font-family);
+}
+
+.contact-info .project-source a {
+  color: #fec53b;
+}
+
+.contact-info .project-source a:hover {
+  color: var(--background-color);
+  text-decoration: underline;
+}
 @media (max-width: 900px) {
   h1,
   .content h1 {
-    font-size: 38px;
+    font-size: 36px;
     line-height: 54px;
   }
   h2 {
-    font-size: 35px;
+    font-size: 32px;
   }
   /* .hero {
     padding: 80px 20px;
   } */
   .project-details {
-    padding: 0;
+    padding: 10px;
     text-align: center;
   }
   .content-container {
@@ -268,5 +307,32 @@ footer .social-links a:hover {
   }
   .logo {
     max-height: 45px;
+  }
+  .project-container-first,
+  .project-container-second {
+    height: 320px;
+    margin: 30px auto;
+  }
+  .contact-info {
+    display: flex;
+    flex-direction: column !important;
+    padding: 2px 0px;
+  }
+  .contact-info .contact {
+    font-size: 16px;
+  }
+  .contact-info div {
+    margin: 10px auto;
+  }
+  .contact-info .email-link {
+    font-size: 16px;
+  }
+  .social-links a {
+    margin: 0 5px;
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+  .contact-info .project-source {
+    text-align: center;
   }
 }
