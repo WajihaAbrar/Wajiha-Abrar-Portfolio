@@ -113,7 +113,10 @@ a {
 
 .skills-technology {
   background: var(--background-color);
-  /* padding: 30px 40px; */
+}
+.skills-title {
+  background: var(--secondary-color);
+  color: #fff;
 }
 
 .contact-button {
@@ -219,7 +222,7 @@ a {
 
 .content {
   /* margin: 25px; */
-  margin: 10px;
+  margin: 5px;
 }
 
 .content h1 {
