@@ -68,9 +68,8 @@ a {
 }
 
 .skills i {
-  font-size: 30px;
+  font-size: 35px;
   text-align: center;
-  margin-left: 20px;
 }
 
 .skills .html {
@@ -111,6 +110,12 @@ a {
 .skills .git:hover {
   transform: scale(2, 2);
 }
+
+.skills-technology {
+  background: var(--background-color);
+  /* padding: 30px 40px; */
+}
+
 .contact-button {
   background: var(--secondary-color);
   color: #fff;
@@ -214,7 +219,7 @@ a {
 
 .content {
   /* margin: 25px; */
-  margin: 15px;
+  margin: 10px;
 }
 
 .content h1 {
@@ -234,9 +239,9 @@ a {
   font-size: 14px;
 }
 
-.about-me .row {
+.about-me .description {
   background: var(--background-color);
-  padding: 15px;
+  padding: 15px 0px;
 }
 dotlottie-player {
   display: block;
