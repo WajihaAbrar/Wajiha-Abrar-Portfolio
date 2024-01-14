@@ -29,6 +29,10 @@
       src="https://kit.fontawesome.com/0921db733a.js"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
   </head>
   <body>
     <div class="container">
@@ -59,11 +63,17 @@
     </div>
     <div class="container content-container">
       <div class="content">
-        <h1 class="mb-5 text-center">
-          Take a look at what I've been working on!
-        </h1>
-        <div class="row">
-          <div class="col-md-6 mb-4">
+        <h1 class="text-center">Take a look at what I've been working on!</h1>
+        <dotlottie-player
+          src="https://lottie.host/8d7270ae-936a-4195-95f6-6ac13e2c863f/cvHrX0Bqc2.json"
+          background="transparent"
+          speed="1"
+          style="width: 300px; height: 150px"
+          loop
+          autoplay
+        ></dotlottie-player>
+        <div class="row m-5">
+          <div class="col-md-6 mb-5">
             <img
               src="/images/Cake-Factory-W.jpg"
               class="img-fluid mb-3 rounded"
@@ -73,9 +83,16 @@
             <p class="content-work text-center text-muted">
               Built with HTML and CSS.
             </p>
-            <a href="/work.html" class="btn project-button">Launch Project</a>
+            <div class="work-button">
+              <a href="" class="btn launch-button"
+                >Launch Page <i class="fa-solid fa-rocket"></i
+              ></a>
+              <a href="" class="btn code-button"
+                >View Code <i class="fa-brands fa-github-alt"></i
+              ></a>
+            </div>
           </div>
-          <div class="col-md-6 mb-4">
+          <div class="col-md-6 mb-5">
             <img
               src="/images/Weather-App-W.jpg"
               class="img-fluid mb-3 rounded"
@@ -83,21 +100,37 @@
             />
             <h3 class="text-center m-0">Weather App</h3>
             <p class="content-work text-center text-muted">
-              Built with HTML and CSS.
+              Built with HTML, CSS, JS and API Integration.
             </p>
+            <div class="work-button">
+              <a href="" class="btn launch-button"
+                >Launch App <i class="fa-solid fa-rocket"></i
+              ></a>
+              <a href="" class="btn code-button"
+                >View Code <i class="fa-brands fa-github-alt"></i
+              ></a>
+            </div>
           </div>
-          <div class="col-md-6 mb-4">
+          <div class="col-md-6 mb-5">
             <img
               src="/images/Crochet-W.jpg"
               class="img-fluid mb-3 rounded"
               alt=""
             />
-            <h3 class="text-center m-0">Crochet Project</h3>
+            <h3 class="text-center m-0">Crochet Landing Page</h3>
             <p class="content-work text-center text-muted">
-              Built with HTML and CSS.
+              Built with HTML, CSS and JS.
             </p>
+            <div class="work-button">
+              <a href="" class="btn launch-button"
+                >Launch Page <i class="fa-solid fa-rocket"></i
+              ></a>
+              <a href="" class="btn code-button"
+                >View Code <i class="fa-brands fa-github-alt"></i
+              ></a>
+            </div>
           </div>
-          <div class="col-md-6 mb-4">
+          <div class="col-md-6 mb-5">
             <img
               src="/images/World-Clock-W.jpg"
               class="img-fluid mb-3 rounded"
@@ -105,8 +138,16 @@
             />
             <h3 class="text-center m-0">World Clock App</h3>
             <p class="content-work text-center text-muted">
-              Built with HTML and CSS.
+              Built with HTML, CSS and JS.
             </p>
+            <div class="work-button">
+              <a href="" class="btn launch-button"
+                >Launch App <i class="fa-solid fa-rocket"></i
+              ></a>
+              <a href="" class="btn code-button"
+                >View Code <i class="fa-brands fa-github-alt"></i
+              ></a>
+            </div>
           </div>
         </div>
       </div>

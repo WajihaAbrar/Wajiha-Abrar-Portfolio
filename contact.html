@@ -29,6 +29,10 @@
       src="https://kit.fontawesome.com/0921db733a.js"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
   </head>
   <body>
     <div class="container">
@@ -59,21 +63,35 @@
     </div>
     <div class="container content-container">
       <div class="content text-center">
-        <h1 class="mb-5">Let's get in touch!</h1>
-        <h3><i class="fa-regular fa-envelope"></i> Email:</h3>
-        <p>
-          <a href="mailto:wajihaabrar@gmail.com">wajihaabrar@gmail.com</a>
-        </p>
-        <h3><i class="fa-brands fa-linkedin"></i> Linkedin:</h3>
-        <p>
-          <a href="https://www.linkedin.com/in/wajiha-abrar/" target="_blank"
-            >wajiha-abrar</a
-          >
-        </p>
-        <h3><i class="fa-brands fa-instagram"></i> Instagram:</h3>
-        <p>
-          <a href="https://www.instagram.com" target="_blank">wajiha-abrar</a>
-        </p>
+        <div class="contact-in-box shadow">
+          <h1>
+            Let's get in touch!
+            <dotlottie-player
+              src="https://lottie.host/d420f33c-c660-43c7-96bd-2b335c9352db/UpljEh95M5.json"
+              background="transparent"
+              speed="1"
+              style="width: 120px; height: 120px"
+              loop
+              autoplay
+            ></dotlottie-player>
+          </h1>
+          <h3><i class="fa-solid fa-square-envelope icons"></i> Email:</h3>
+          <p>
+            <a href="mailto:wajihaabrar@gmail.com">wajihaabrar@gmail.com</a>
+          </p>
+          <h3><i class="fa-brands fa-linkedin icons"></i> Linkedin:</h3>
+          <p>
+            <a href="https://www.linkedin.com/in/wajiha-abrar" target="_blank"
+              >wajiha-abrar</a
+            >
+          </p>
+          <h3>
+            <i class="fa-brands fa-square-instagram icons"></i> Instagram:
+          </h3>
+          <p>
+            <a href="https://www.instagram.com" target="_blank">wajiha.abrar</a>
+          </p>
+        </div>
       </div>
     </div>
   </body>

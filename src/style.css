@@ -121,6 +121,17 @@ a {
   background: #fff;
   transition: all 1s ease;
 }
+.contact-in-box {
+  width: 80%;
+  margin: 0 auto;
+  background: var(--background-color);
+  border-radius: 15px;
+  padding: 25px 0px;
+}
+
+.contact-in-box .icons {
+  color: palevioletred;
+}
 
 .project-button {
   background: var(--secondary-color);
@@ -136,6 +147,34 @@ a {
   transition: all 1s ease;
 }
 
+.launch-button {
+  background: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  color: var(--background-color);
+}
+.launch-button:hover,
+.code-button:hover {
+  background: #000;
+  border: 1px solid black;
+  color: #fff;
+}
+.code-button {
+  background: var(--background-color);
+  border: 1px solid var(--background-color);
+  color: var(--primary-color);
+  margin-left: 10px;
+}
+.work-button {
+  display: flex;
+  justify-content: center;
+}
+.work-button a {
+  border-radius: 25px;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  transition: all 150ms ease-in;
+}
 .project-details {
   padding: 30px 40px;
 }
@@ -165,7 +204,8 @@ a {
 }
 
 .content {
-  margin: 25px;
+  /* margin: 25px; */
+  margin: 15px;
 }
 
 .content h1 {
@@ -287,15 +327,16 @@ section {
 @media (max-width: 900px) {
   h1,
   .content h1 {
-    font-size: 36px;
+    font-size: 35px;
     line-height: 54px;
   }
   h2 {
     font-size: 32px;
   }
-  /* .hero {
-    padding: 80px 20px;
-  } */
+
+  h3 {
+    font-size: 30px;
+  }
   .project-details {
     padding: 10px;
     text-align: center;
@@ -343,5 +384,10 @@ section {
   }
 
   .about-me {
+  }
+
+  .work-button a {
+    border-radius: 5px;
+    padding: 5px 10px;
   }
 }
