@@ -249,7 +249,6 @@ navbar ul {
 navbar li {
   display: inline;
   list-style: none;
-  /* line-height: 120px; */
   line-height: 100px;
   margin-left: 40px;
 }
@@ -263,7 +262,7 @@ navbar a {
 
 navbar a:hover,
 navbar li.active a {
-  color: var(--background-color);
+  color: palevioletred;
 }
 
 section .contact-box {
@@ -348,6 +347,7 @@ section {
   navbar a {
     font-size: 14px;
   }
+
   navbar li {
     line-height: 70px;
     margin-left: 15px;
@@ -381,9 +381,6 @@ section {
   }
   .contact-info .project-source {
     text-align: center;
-  }
-
-  .about-me {
   }
 
   .work-button a {
