@@ -161,7 +161,7 @@ a {
   color: var(--background-color);
 }
 .content-container {
-  padding: 20px 20px;
+  padding: 5px 10px;
 }
 
 .content {
@@ -169,7 +169,7 @@ a {
 }
 
 .content h1 {
-  font-size: 48px;
+  font-size: 47px;
   line-height: 80px;
 }
 .content h2 {
@@ -195,8 +195,8 @@ dotlottie-player {
 }
 
 .logo {
-  max-height: 70px;
-  margin: 10px 0;
+  max-height: 65px;
+  margin: 12px 0;
 }
 navbar {
   padding: 0;
@@ -209,7 +209,8 @@ navbar ul {
 navbar li {
   display: inline;
   list-style: none;
-  line-height: 120px;
+  /* line-height: 120px; */
+  line-height: 100px;
   margin-left: 40px;
 }
 
@@ -301,7 +302,7 @@ section {
   }
   .content-container {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
   }
   navbar a {
     font-size: 14px;
@@ -339,5 +340,8 @@ section {
   }
   .contact-info .project-source {
     text-align: center;
+  }
+
+  .about-me {
   }
 }
