@@ -118,8 +118,8 @@ a {
   padding: 15px 30px;
 }
 .contact-button:hover {
-  background: #fec53b;
-  transition: all 150ms ease-in-out;
+  background: palevioletred;
+  transition: all 100ms ease-in-out;
 }
 .contact-in-box {
   width: 80%;
@@ -158,6 +158,7 @@ a {
   background: var(--primary-color);
   border: 1px solid var(--primary-color);
   color: var(--background-color);
+  font-size: 18px;
 }
 .launch-button:hover,
 .code-button:hover {
@@ -169,6 +170,7 @@ a {
   background: var(--background-color);
   border: 1px solid var(--background-color);
   color: var(--primary-color);
+  font-size: 18px;
   margin-left: 10px;
 }
 .work-button {
@@ -211,7 +213,6 @@ a {
 }
 
 .content {
-  /* margin: 25px; */
   margin: 5px;
 }
 
@@ -296,7 +297,7 @@ section {
 }
 
 .contact-info .email-link:hover {
-  color: var(--background-color);
+  color: palevioletred;
 }
 
 .social-links a {
@@ -310,7 +311,7 @@ section {
 }
 
 .social-links a:hover {
-  background: #fec53b;
+  background: palevioletred;
   color: white;
 }
 
@@ -322,8 +323,8 @@ section {
 }
 .contact-info .contact {
   color: var(--background-color);
-  font-size: 18px;
-  font-family: var(--heading-font-family);
+  font-size: 16px;
+  font-family: var(--default-font-family);
 }
 
 .contact-info .project-source a {
@@ -331,7 +332,7 @@ section {
 }
 
 .contact-info .project-source a:hover {
-  color: var(--background-color);
+  color: palevioletred;
   text-decoration: underline;
 }
 @media (max-width: 900px) {
@@ -368,7 +369,8 @@ section {
   }
   .project-container-first,
   .project-container-second {
-    height: 320px;
+    height: 400px;
+    padding-top: 15px;
     margin: 30px auto;
   }
   .contact-info {
@@ -377,13 +379,13 @@ section {
     padding: 2px 0px;
   }
   .contact-info .contact {
-    font-size: 16px;
+    font-size: 14px;
   }
   .contact-info div {
     margin: 10px auto;
   }
   .contact-info .email-link {
-    font-size: 16px;
+    font-size: 14px;
   }
   .social-links a {
     margin: 0 5px;
@@ -393,9 +395,24 @@ section {
   .contact-info .project-source {
     text-align: center;
   }
-
-  .work-button a {
-    border-radius: 5px;
-    padding: 5px 10px;
+  .content p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .about-me .description {
+    padding: 5px 0px;
+  }
+  .work-inquiry-button {
+    font-size: 16px;
+    border-radius: 20px;
+    line-height: 1.5;
+    padding: 8px 35px;
+  }
+  .work-button .launch-button,
+  .work-button .code-button {
+    border-radius: 25px;
+    font-size: 12px;
+    line-height: 1.2;
+    padding: 5px 20px;
   }
 }
