@@ -72,11 +72,6 @@ a {
 .skills i {
   font-size: 35px;
   text-align: center;
-  transition: all 1s ease-in;
-}
-
-.skills i:hover {
-  transform: scale(2, 2);
 }
 
 .skills .html {
